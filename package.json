@@ -1,23 +1,24 @@
 {
   "name": "md-high",
   "version": "0.1.0",
-  "author":"ray zhang",
+  "author": "ray zhang",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "babel-plugin-prismjs": "^1.1.1",
     "babel-runtime": "^6.26.0",
-    "prismjs": "^1.15.0",
-    "vue": "^2.5.17",
+    "prismjs": "^1.17.1",
+    "vue": "^2.6.11",
     "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0",
-    "@vue/cli-service": "^3.0.0",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.0.1",
-    "vue-template-compiler": "^2.5.17"
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.11"
   }
 }
